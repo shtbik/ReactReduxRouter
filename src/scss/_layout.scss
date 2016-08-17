@@ -40,8 +40,11 @@ $phone: "(max-width: 960px)";
 body {
     overflow-x: hidden;
 
-    .container-fluid {
-    
+    .nav-pills > li > a{
+
+        &.active{
+            font-weight: bold;
+        }
     }
 }
 
